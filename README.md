@@ -25,7 +25,7 @@ pak::pkg_install("R-ArcGIS/arcgislayers", dependencies = TRUE)
 ## Basic usage
 
 ``` r
-library(arcgis)
+library(arcgislayers)
 #> Attaching core arcgis packages:
 #>   - {arcgisutils} v0.1.0
 #>   - {arcgislayers} v0.1.0
@@ -269,7 +269,7 @@ See [authorization article](articles/Authorization.html).
 <!-- Read in data from a feature layer. arcgis implements a `FeatureLayer` class object which is used to control how we read data from a Feature Layer service.  -->
 <!-- Create a `FeatureLayer` with `feature_layer()` which takes the url of the feature layer as its only argument.  -->
 <!-- ```{r example} -->
-<!-- library(arcgis) -->
+<!-- library(arcgislayers) -->
 <!-- # define the feature layer url -->
 <!-- furl <- "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Counties_Generalized_Boundaries/FeatureServer/0" -->
 <!-- # create a feature layer -->
